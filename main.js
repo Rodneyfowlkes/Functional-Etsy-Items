@@ -25,4 +25,22 @@ var horse = function (x) {
 return price_ranged_items;
 };
 
-document.querySelector("#answer4").textContent = horse(items)
+document.querySelector("#answer2").textContent = horse(items)
+
+
+
+
+var goat = function (x) {
+  var gbp_item = []
+  x.forEach(function(n) {
+  if (n.currency_code == "GBP"){ 
+    gbp_item.push(n.title);
+    gbp_item.push(" \xA3 "+ n.price);
+  }
+
+ });
+return gbp_item;
+};
+
+
+document.querySelector("#answer3").textContent = goat(items)
