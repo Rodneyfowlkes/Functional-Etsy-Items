@@ -1,0 +1,81 @@
+.banner_img {
+
+	width: 100%;
+}
+
+*  {
+	background-color: #EEEEEE;
+}
+
+
+.header_title_text {
+font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 270%;
+
+}
+
+.answertext{
+    margin:0;padding:0 10px;
+    background: #EEEEEE;
+    display:inline-block;
+    color: #666666;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 200%;
+
+}
+
+
+h3{
+    
+    text-align:center;
+    position:relative;
+    z-index:2;
+    margin-top: 60px;
+    
+}
+h3:after{
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+    right:0;
+    border-top:solid 3px #EAEAEA;
+    z-index:-1;
+}
+
+
+
+.answer {
+	text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    padding: 5px;
+
+}
+
+
+.footer_div {
+	margin-top: 30px;
+height: 10vw;
+background-color: #4B484F;
+
+    	padding-left: 45%;
+    	padding-bottom: 0px;
+position: relative;
+    	
+    }
+
+
+.footer_text {position: absolute;
+
+	background-color: #4B484F;
+color: #EEEEEE;
+	font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 80%;
+    margin-top: 7vw;
+}
+
+
